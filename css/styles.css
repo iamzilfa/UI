@@ -63,3 +63,12 @@
     background-color:#0a3d62;
     color: white;
 }
+.head{
+    background-image: url("https://karmod.eu/blog/wp-content/uploads/2015/06/Africa-Prefab-COVID-19-Hospital-buildings-1.png");
+    background-size: cover;
+    background-position-x: 1280px;
+    background-position-y: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color:white;
+}
