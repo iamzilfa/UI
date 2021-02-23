@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/83d474e45f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div style="font-family: Poppins;">
+    <div>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#57cac3">
             <a class="navbar-brand" href="index.html">Hospital Appointment</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -21,21 +22,22 @@
                 <span></span>
                 <span></span>
             </button>
-        
+
             <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                     <!-- {% if user.is_authenticated %} -->
                     <li class="nav-item active">
-                        <a class="nav-link" href="guide.html" >VISITORS GUIDE</a>
+                        <a class="nav-link" href="guide.html" style="font-weight: bold;">VISITORS GUIDE</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html#ABOUT" >ABOUT</a>
+                        <a class="nav-link" href="./index.html#ABOUT" style="font-weight: bold;">ABOUT</a>
                     </li>
-                
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Departments
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="font-weight: bold;">
+                            DEPARTMENTS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="servces.html">Services</a>
@@ -43,19 +45,18 @@
                             <!-- <a class="dropdown-item" href="/logout">Logout</a> -->
                         </div>
                     </li>
-        
-                    <!-- {% else %} -->
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span></a>
+                        <a class="nav-link" href="#CONTACT" style="font-weight: bold;">CONTACT</a>
                     </li>
-        
-                    <!-- {%endif%} -->
+
+
                 </ul>
                 <form class="form-inline my-2 my-lg-0  ml-auto" action="#">
                     <input type="text" class="form-control mr-sm-2" name="photo_name" placeholder="Search..."
-                    style="border-radius: 30px;height: 35px;font-family: 'Times New Roman', Times, serif;width: 200px;">
+                        style="border-radius: 30px;height: 35px;font-family: 'Times New Roman', Times, serif;width: 200px;">
                 </form>
-        
+
                 <!-- <ul class="navbar-nav ml-auto">
                     <button class="btn"><a class="nav-link" href="#" style="color: white;">Post a Photo</a></button>
         
@@ -64,34 +65,36 @@
         </nav>
     </div>
     <div class="intro" style="font-family: 'Roboto Slab', serif;">
-        <div class="head" >
-            <strong><h4 style="font-weight: bold;">Neurosurgery</h4></strong>
+        <div class="head">
+            <strong><h4 style="font-weight: bold;">Visitors Guide</h4></strong>
             <br>
             <br>
             <br>
         </div>
         <br>
         <div class="content">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-board">
-                        <img src="https://kfh.rw/wp-content/uploads/2020/09/brain-function-1024x685-1-e1601228061808.jpg" style="height: 300px; width: 400px; padding-left: 30px;">
-                    </div>
-                </div>
-                <div class="col-md-3" style="padding-top: 20px;">
-                    <h3>Neurosurgery</h3>
-                    <p>Kigali provides a comprehensive range of services including diagnostic tests and treatments for patients facing all types of neurological conditions. Our team of neurosurgeons specializes in treating trauma and tumors of the head and spine as well as neurovascular surgery.</p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="bottom">
-            <h4 style="padding-left: 15%;"> Our Specialists</h4>
-            <div class="images-doc" style="padding-left: 10%;">
-                <img src="https://eoric.uenr.edu.gh/wp-content/uploads/2019/08/male-profile-blank.jpg" style="height: 300px;">
-            </div>
-            <p style="padding-left: 15%;"><a href="doc3.html" style="color: #00693e; font-weight: bold;">Dr. Nsengiyumva David</a></p>
+            <br>
+            <strong><h1 style="padding-left: 10%; border-bottom:2px thin darkcyan;">Announcements</h1></strong>
+            <ul style="padding-left: 15%;">
+                <br>
+                <br>
+                <li>Appointments can be scheduled through telephone or email.</li>
+                <li>Patients are required to carry an insurance card, identification card, or passport.</li>
+                <li>International visitors are required to carry an identification card or passport for registration purposes.</li>
+                <li>Outpatient clinics are open from Monday- Friday, 7:00 am-5:00 pm Saturday and Sunday clinics are open from 8:00 am- 4:00 pm.</li>
+                <li>Vaccinations are conducted on Wednesday and Saturday, from 7:00 am–5:00 pm. Infants from 0 to 3 months are vaccinated on Wednesday, while all else above 3 months are vaccinated on Saturdays.</li>
+                <li>For booking an appointment, please dial the following lines: toll-free lines: 3939, 3938 or +250 783 825 851,+250 788 309 003.</li>
+                <li>International visitors can book an appointment by dialing our toll-free line: 3937 or +250788384877
+                </li>
+                <li>On public holidays, only emergency cases are received. To contact emergency services at King Faisal Hospital, Kigali, dial +250787458888 Shift leaders will immediately attend to patients.
+                </li>
+                <li>For further assistance, please send us an email at info@hospitalappointement.com
+                </li>
+            </ul>
+            <br>
+            <p style="padding-left: 8%;">Due to the ongoing COVID-19 pandemic, visits are strictly prohibited. Only 2 registered caretakers with negative COVID-19 results will be allowed to visit patients.
+
+            </p>
         </div>
     </div>
 
